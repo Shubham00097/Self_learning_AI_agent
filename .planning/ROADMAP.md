@@ -7,7 +7,7 @@
 | Phase | Name | Status | Plans | Date |
 |-------|------|--------|-------|------|
 | 1 | Infrastructure & Daemon | Complete | 4 | 2026-03-06 |
-| 2 | Ingestion & Architecture | Planned | — | — |
+| 2 | Ingestion & Architecture | Complete | 5 | 2026-03-06 |
 | 3 | Core Capabilities & Memory | Planned | — | — |
 
 ### Phases
@@ -23,11 +23,11 @@
 #### Phase 2: Ingestion & Architecture
 **Goal:** Enable the agent to safely ingest local/remote repositories and support extensible behaviors.
 **Requirements:** [R2, R4, R6, R7, R9]
-- [ ] Integrate `GitPython` to clone and manage remote GitHub URLs locally.
-- [ ] Implement strict path filtering (e.g., ignoring `.git/`, `node_modules/`).
-- [ ] Create the Plugin Task architecture (BaseTask interface and Plugin Registry).
-- [ ] Implement graceful shutdown signal handling (`SIGTERM`).
-- [ ] Add robust error handling for missing paths and Git clone failures.
+- [x] Integrate `GitPython` to clone and manage remote GitHub URLs locally.
+- [x] Implement strict path filtering (e.g., ignoring `.git/`, `node_modules/`).
+- [x] Create the Plugin Task architecture (BaseTask interface and Plugin Registry).
+- [x] Implement graceful shutdown signal handling (`SIGTERM`).
+- [x] Add robust error handling for missing paths and Git clone failures.
 
 #### Phase 3: Core Capabilities & Memory
 **Goal:** Connect the decision engine to a persistent database and ensure the system is stable.
