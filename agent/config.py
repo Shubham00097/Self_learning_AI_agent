@@ -6,6 +6,10 @@ from typing import Dict, Any
 DEFAULT_CONFIG: Dict[str, Any] = {
     "log_level": "INFO",
     "poll_interval": 5,
+    "ignore_patterns": [],  # Additional patterns beyond hardcoded defaults
+    "plugins_dir": str(Path.home() / ".sg_agent" / "plugins"),
+    "workspaces_dir": str(Path.home() / ".sg_agent" / "workspaces"),
+    "shutdown_timeout": 10,
 }
 
 def load_config(global_path: Path, local_path: Path) -> Dict[str, Any]:
