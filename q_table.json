@@ -1,0 +1,65 @@
+{
+    ".png": {
+        "images": 0.0,
+        "documents": 0.0,
+        "archives": 0.0,
+        "code": -0.5,
+        "misc": -0.95
+    },
+    ".py": {
+        "images": 0.0,
+        "documents": 0.0,
+        "archives": -0.5,
+        "code": 0.0,
+        "misc": -0.95
+    },
+    ".xlsx": {
+        "images": -0.95,
+        "documents": 0.0,
+        "archives": 0.0,
+        "code": -0.5,
+        "misc": 0.0
+    },
+    ".pdf": {
+        "images": -0.5,
+        "documents": 0.0,
+        "archives": -0.5,
+        "code": 0.0,
+        "misc": -0.5
+    },
+    ".txt": {
+        "images": -0.95,
+        "documents": 1.0,
+        "archives": 0.0,
+        "code": 0.0,
+        "misc": 0.0
+    },
+    ".zip": {
+        "images": -0.95,
+        "documents": 0.0,
+        "archives": 0.0,
+        "code": 0.0,
+        "misc": -0.5
+    },
+    ".xyz": {
+        "images": 0.0,
+        "documents": -1.355,
+        "archives": 0.0,
+        "code": 0.0,
+        "misc": 0.0
+    },
+    ".jpeg": {
+        "images": 0.0,
+        "documents": 0.0,
+        "archives": -0.5,
+        "code": -0.5,
+        "misc": -0.5
+    },
+    ".html": {
+        "images": -0.5,
+        "documents": 0.0,
+        "archives": 0.0,
+        "code": 1.9,
+        "misc": 0.0
+    }
+}
